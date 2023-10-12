@@ -1,0 +1,105 @@
+body {
+    background-color: #fff;
+  }
+  .card {
+    // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    // width: 100px;
+    // height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 800px;
+  
+    img {
+       height: 40%;
+    }
+  
+  }
+  button {
+    margin: 10px;
+    background-color: white;
+    border: transparent;
+    padding: 7px;
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+  }
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+  
+  }
+  .wrapper {
+    padding-top: 200px;
+    display: flex;
+    margin: 20px;
+    height: 800px;
+  }
+  
+  
+  // .left {
+  //   // opacity: 0.5 !important;
+  
+  //   &.mobile img  {
+  //     transform: translateX(1140px) scale(0.6) translateZ(0px) !important; 
+  //   }
+  
+  //   &.web  img {
+  //     transform: translateX(1140px) scale(0.6) translateZ(0px) !important; 
+  //   }
+  
+  //   z-index: 1 !important;
+  // }
+  
+  // .right  {
+  //   // opacity: 0.5 !important;
+  
+  //   &.mobile img {
+  //     transform: translateX(-1140px) scale(0.6) translateZ(0px) !important; 
+  //   }
+  
+  //   &.web  img {
+  //     transform: translateX(-1140px) scale(0.6) translateZ(0px) !important; 
+  //   }
+  
+  //   z-index: 1 !important;
+  
+  // }
+  
+  // .leftCenter {
+  //   // opacity: 0.8 !important;
+  
+  //   &.web img  {
+  //     transform: translateX(550px) scale(1) translateZ(0px) !important; 
+  //   }
+  
+  //   &.mobile img {
+  //     transform: translateX(280px) scale(1) translateZ(0px) !important; 
+  //   }
+  
+  //   z-index: 2 !important;
+  
+  // }
+  
+  // .rightCenter {
+  //   // opacity: 0.8 !important;
+  
+  //   &.web img {
+  //     transform: translateX(-550px) scale(1) translateZ(0px) !important; 
+  //   }
+  
+  //   &.mobile img {
+  //     transform: translateX(-280px) scale(1) translateZ(0px) !important; 
+  //   }
+  
+  //   z-index: 2 !important;
+  
+  // }
+  
+  // .center {
+  //   z-index: 3 !important;
+  // }
